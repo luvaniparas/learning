@@ -1,0 +1,11 @@
+Cretae App =>
+    - npx create-next-app@latest
+
+prisma install =>
+    -  npm i prisma --save-dev
+
+init prisma =>
+    - npx prisma init --datasource-provider sqlite
+
+migrate into db =>
+    - npx prisma migrate dev --name init
